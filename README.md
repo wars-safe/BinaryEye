@@ -1,16 +1,12 @@
-# Binary Eye
+# 頂你武肺
+Scan 個 QR code 咋嘛，自己黎啦。
 
-Yet another barcode scanner for Android. As if there weren't [enough][play].
-
-This one is free, without any ads and open source.
-
-Works in portrait and landscape orientation, can read inverted codes,
-comes in Material Design and can also generate barcodes.
+Forked from  [BinaryEye](https://github.com/markusfisch/BinaryEye).
 
 Binary Eye uses the [ZXing][zxing] ("Zebra Crossing") barcode scanning
 library.
 
-## Screenshots
+## Cap圖
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-scanning.png"
 	alt="Screenshot Gallery" width="160"/>
@@ -21,48 +17,8 @@ library.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screencap-compose-barcode.png"
 	alt="Screenshot Editor" width="160"/>
 
-## Download
+## 下載
 
-<a href="https://f-droid.org/en/packages/de.markusfisch.android.binaryeye/"><img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="80"/></a> <a href="https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80"/></a>
-
-## Supported Barcode Formats
-
-### Read
-
-ZXing can read the following barcode formats:
-* [AZTEC][aztec]
-* [CODABAR][codabar]
-* [CODE 39][code_39]
-* [CODE 93][code_93]
-* [CODE 128][code_128]
-* [DATA MATRIX][data_matrix]
-* [EAN 8][ean_8]
-* [EAN 13][ean_13]
-* [ITF][itf]
-* [MAXICODE][maxicode] (only when unrotated and unskewed, see [77][77],
-	because of which Binary Eye *cannot* read this barcode)
-* [PDF417][pdf417]
-* [QR CODE][qr_code]
-* [RSS 14][rss]
-* [RSS EXPANDED][rss]
-* [UPC A][upc_a]
-* [UPC E][upc_e]
-* [UPC EAN EXTENSION][upc_ean]
-
-### Generate
-
-ZXing can generate the following barcode formats:
-* [AZTEC][aztec]
-* [CODABAR][codabar]
-* [CODE 39][code_39]
-* [CODE 128][code_128]
-* [DATA MATRIX][data_matrix]
-* [EAN 8][ean_8]
-* [EAN 13][ean_13]
-* [ITF][itf]
-* [PDF 417][pdf417]
-* [QR CODE][qr_code]
-* [UPC A][upc_a]
 
 ## RenderScript
 
